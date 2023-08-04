@@ -1,10 +1,10 @@
 {
-  "name": "@ducanh2912/next-pwa",
-  "version": "9.4.0",
+  "name": "@wilfried02/next-pwa",
+  "version": "9.4.1",
   "type": "module",
   "description": "PWA for Next.js, powered by Workbox.",
-  "repository": "https://github.com/DuCanhGH/next-pwa",
-  "author": "ShadowWalker <w@weiw.io>, DuCanhGH",
+  "repository": "https://github.com/Wilfried02/next-pwa",
+  "author": "ShadowWalker <w@weiw.io>, DuCanhGH, Wilfried02",
   "license": "MIT",
   "private": false,
   "files": [
@@ -89,5 +89,8 @@
   "peerDependencies": {
     "next": ">=11.0.0",
     "webpack": ">=5.9.0"
+  },
+  "publishConfig": {
+    "provenance": true
   }
 }
